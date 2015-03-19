@@ -1,0 +1,42 @@
+<RestClientRequest>
+  <option name="biscuits">
+    <list />
+  </option>
+  <option name="httpMethod" value="DELETE" />
+  <option name="urlBase" value="http://localhost:3000" />
+  <option name="urlPath" value="/api/beers/550a73e5015b5407191341c0" />
+  <option name="headers">
+    <list>
+      <KeyValuePair>
+        <option name="key" value="Accept" />
+        <option name="value" value="*/*" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="Cache-Control" />
+        <option name="value" value="no-cache" />
+      </KeyValuePair>
+    </list>
+  </option>
+  <option name="parameters">
+    <list>
+      <KeyValuePair>
+        <option name="key" value="name" />
+        <option name="value" value="Dos Equis" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="type" />
+        <option name="value" value="ipa" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="quantity" />
+        <option name="value" value="14000" />
+      </KeyValuePair>
+    </list>
+  </option>
+  <option name="parametersEnabled" value="true" />
+  <option name="haveTextToSend" value="false" />
+  <option name="haveFileToSend" value="false" />
+  <option name="isFileUpload" value="false" />
+  <option name="textToSend" value="quantity=1500&amp;name=bob" />
+  <option name="filesToSend" value="" />
+</RestClientRequest>
